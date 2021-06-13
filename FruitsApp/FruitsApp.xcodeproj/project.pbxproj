@@ -13,6 +13,7 @@
 		EFA433F426763D8F00A7C886 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA433DF26763D8E00A7C886 /* ContentView.swift */; };
 		EFA433F526763D8F00A7C886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA433E026763D8F00A7C886 /* Assets.xcassets */; };
 		EFA433F626763D8F00A7C886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA433E026763D8F00A7C886 /* Assets.xcassets */; };
+		EFA434062676463800A7C886 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA434052676463800A7C886 /* FruitCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EFA433ED26763D8F00A7C886 /* FruitsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA433EF26763D8F00A7C886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFA433F026763D8F00A7C886 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EFA434052676463800A7C886 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,21 +49,21 @@
 		EFA433D826763D8E00A7C886 = {
 			isa = PBXGroup;
 			children = (
-				EFA433DD26763D8E00A7C886 /* Shared */,
+				EFA433DD26763D8E00A7C886 /* FruitsApp */,
 				EFA433E726763D8F00A7C886 /* iOS */,
 				EFA433EE26763D8F00A7C886 /* macOS */,
 				EFA433E626763D8F00A7C886 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EFA433DD26763D8E00A7C886 /* Shared */ = {
+		EFA433DD26763D8E00A7C886 /* FruitsApp */ = {
 			isa = PBXGroup;
 			children = (
-				EFA433DE26763D8E00A7C886 /* FruitsAppApp.swift */,
-				EFA433DF26763D8E00A7C886 /* ContentView.swift */,
+				EFA434012676461800A7C886 /* View */,
+				EFA434022676462400A7C886 /* App */,
 				EFA433E026763D8F00A7C886 /* Assets.xcassets */,
 			);
-			path = Shared;
+			path = FruitsApp;
 			sourceTree = "<group>";
 		};
 		EFA433E626763D8F00A7C886 /* Products */ = {
@@ -88,6 +90,23 @@
 				EFA433F026763D8F00A7C886 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		EFA434012676461800A7C886 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFA434052676463800A7C886 /* FruitCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFA434022676462400A7C886 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EFA433DE26763D8E00A7C886 /* FruitsAppApp.swift */,
+				EFA433DF26763D8E00A7C886 /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +208,7 @@
 			files = (
 				EFA433F326763D8F00A7C886 /* ContentView.swift in Sources */,
 				EFA433F126763D8F00A7C886 /* FruitsAppApp.swift in Sources */,
+				EFA434062676463800A7C886 /* FruitCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
