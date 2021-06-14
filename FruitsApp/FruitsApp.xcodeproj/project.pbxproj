@@ -15,6 +15,7 @@
 		EFA433F626763D8F00A7C886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA433E026763D8F00A7C886 /* Assets.xcassets */; };
 		EFA434062676463800A7C886 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA434052676463800A7C886 /* FruitCardView.swift */; };
 		EFA4340C2676509D00A7C886 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4340B2676509D00A7C886 /* StartButton.swift */; };
+		EFA43410267739AB00A7C886 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4340F267739AB00A7C886 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EFA433F026763D8F00A7C886 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		EFA434052676463800A7C886 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		EFA4340B2676509D00A7C886 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		EFA4340F267739AB00A7C886 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				EFA434052676463800A7C886 /* FruitCardView.swift */,
 				EFA4340B2676509D00A7C886 /* StartButton.swift */,
+				EFA4340F267739AB00A7C886 /* OnboardingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				EFA433F326763D8F00A7C886 /* ContentView.swift in Sources */,
 				EFA433F126763D8F00A7C886 /* FruitsAppApp.swift in Sources */,
 				EFA4340C2676509D00A7C886 /* StartButton.swift in Sources */,
+				EFA43410267739AB00A7C886 /* OnboardingView.swift in Sources */,
 				EFA434062676463800A7C886 /* FruitCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
