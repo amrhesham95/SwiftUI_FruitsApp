@@ -30,6 +30,7 @@ struct FruitDetailsView: View {
                     Text(fruit.headline)
                     
                     // Nutrituents
+                    FruitNutritientsView(fruit: fruit)
                     
                     // Subheadline
                     Text("Learn more abount \(fruit.title)")
