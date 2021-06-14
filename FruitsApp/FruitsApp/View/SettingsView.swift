@@ -37,6 +37,14 @@ struct SettingsView: View {
                     // MARK: - Section 2
                     
                     // MARK: - Section 3
+                    
+                    GroupBox(label: SettingsLabelView(text: "Application", imageName: "apps.iphone")) {
+                        SettingsRow(name: "Developer", content: "Amr Hesham")
+                        SettingsRow(name: "Compatibility", content: "iOS 14")
+                        SettingsRow(name: "Github", linkLabel: "amrhesham95", linkDestination: "github.com/amrhesham95")
+                        SettingsRow(name: "SwiftUI", content: "2.0")
+                        SettingsRow(name: "Version", content: "1.1.0")
+                    }
                 }// VStack
                 .navigationBarTitle("Settings")
                 .navigationBarItems(trailing:
@@ -54,6 +62,6 @@ struct SettingsView: View {
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsView()
-            .preferredColorScheme(.dark)
+            .preferredColorScheme(.light)
     }
 }

@@ -16,6 +16,7 @@
 		EF80146D2677816F00643087 /* FruitNutritientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80146C2677816F00643087 /* FruitNutritientsView.swift */; };
 		EF8014712677B81600643087 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8014702677B81600643087 /* SettingsView.swift */; };
 		EF8014752677BC0300643087 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8014742677BC0300643087 /* SettingsLabelView.swift */; };
+		EF8014792677C80800643087 /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8014782677C80800643087 /* SettingsRow.swift */; };
 		EFA433F126763D8F00A7C886 /* FruitsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA433DE26763D8E00A7C886 /* FruitsAppApp.swift */; };
 		EFA433F226763D8F00A7C886 /* FruitsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA433DE26763D8E00A7C886 /* FruitsAppApp.swift */; };
 		EFA433F326763D8F00A7C886 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA433DF26763D8E00A7C886 /* ContentView.swift */; };
@@ -37,6 +38,7 @@
 		EF80146C2677816F00643087 /* FruitNutritientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutritientsView.swift; sourceTree = "<group>"; };
 		EF8014702677B81600643087 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		EF8014742677BC0300643087 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		EF8014782677C80800643087 /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
 		EFA433DE26763D8E00A7C886 /* FruitsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsAppApp.swift; sourceTree = "<group>"; };
 		EFA433DF26763D8E00A7C886 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFA433E026763D8F00A7C886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				EF80146C2677816F00643087 /* FruitNutritientsView.swift */,
 				EF8014702677B81600643087 /* SettingsView.swift */,
 				EF8014742677BC0300643087 /* SettingsLabelView.swift */,
+				EF8014782677C80800643087 /* SettingsRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			files = (
 				EF80145526773E7B00643087 /* FruitData.swift in Sources */,
 				EF8014692677787A00643087 /* SourceLinkView.swift in Sources */,
+				EF8014792677C80800643087 /* SettingsRow.swift in Sources */,
 				EF80144E26773DEE00643087 /* Fruit.swift in Sources */,
 				EFA433F326763D8F00A7C886 /* ContentView.swift in Sources */,
 				EFA433F126763D8F00A7C886 /* FruitsAppApp.swift in Sources */,
