@@ -11,6 +11,7 @@ struct SettingsView: View {
     // MARK: - Properties
     
     @Environment(\.presentationMode) var presentationMode
+    @AppStorage("isOnboarding") var isOnboarding: Bool = false
     
     // MARK: - Body
     var body: some View {
@@ -44,6 +45,10 @@ struct SettingsView: View {
                             .layoutPriority(1)
                             .font(.footnote)
                             .multilineTextAlignment(.leading)
+                        
+                        Toggle(isOn: $isOnboarding, label: {
+                            Text("Restart".uppercased())
+                        })
                     }
                     // MARK: - Section 3
                     
@@ -57,7 +62,10 @@ struct SettingsView: View {
                 }// VStack
                 .navigationBarTitle("Settings")
                 .navigationBarItems(trailing:
-                                        Button(action: { presentationMode.wrappedValue.dismiss() }) {
+                                        Button(action: {
+                                                presentationMode.wrappedValue.dismiss()
+                                            
+                                        }) {
                                             Image(systemName: "xmark")
                                         }
                 )
