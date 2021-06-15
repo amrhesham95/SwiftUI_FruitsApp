@@ -46,9 +46,20 @@ struct SettingsView: View {
                             .font(.footnote)
                             .multilineTextAlignment(.leading)
                         
-                        Toggle(isOn: $isOnboarding, label: {
-                            Text("Restart".uppercased())
-                        })
+                        Toggle(isOn: $isOnboarding) {
+                            if isOnboarding {
+                                Text("Restarted".uppercased())
+                                    .foregroundColor(.green)
+                            } else {
+                                Text("Restart".uppercased())
+                                
+                            }
+                        }
+                        .padding()
+                        .background(
+                            Color(.tertiarySystemBackground)
+                                .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                        )
                     }
                     // MARK: - Section 3
                     
@@ -63,7 +74,7 @@ struct SettingsView: View {
                 .navigationBarTitle("Settings")
                 .navigationBarItems(trailing:
                                         Button(action: {
-                                                presentationMode.wrappedValue.dismiss()
+                                            presentationMode.wrappedValue.dismiss()
                                             
                                         }) {
                                             Image(systemName: "xmark")
