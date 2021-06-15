@@ -35,7 +35,16 @@ struct SettingsView: View {
                     }
                     
                     // MARK: - Section 2
-                    
+                    GroupBox(label: SettingsLabelView(text: "Customization", imageName: "paintbrush")) {
+                        Divider().padding(.vertical, 4)
+                        
+                        Text("if you wish, you can restart the application by toggle the switch")
+                            .padding(.vertical, 8)
+                            .frame(minHeight: 60)
+                            .layoutPriority(1)
+                            .font(.footnote)
+                            .multilineTextAlignment(.leading)
+                    }
                     // MARK: - Section 3
                     
                     GroupBox(label: SettingsLabelView(text: "Application", imageName: "apps.iphone")) {
